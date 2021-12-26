@@ -1,0 +1,3 @@
+To develop respiratory_disease_detection_system, used ICBHI challange 2017 dataset. There is total 920 audio files. The dataset contains total 8 classes like COPD, URTI, LRTI, Bronchitis, Bronchiectasis, Asthma, Pneumonia, and healthy.
+
+First the speech features like chroma related features, spectral_centroid, spectral_rolloff, zero_crossing_rate features are extrcated. Then features are pass to the machine learning model like k-Nearest-Neighbour, Random Forest, XGBoost. The preprocessing, model_creation and predction are shown in Respiratory_system_dataset.ipynb. 

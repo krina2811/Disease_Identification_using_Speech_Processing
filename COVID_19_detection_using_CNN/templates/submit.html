@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Final Report</title>
+</head>
+{% if data == 0 %}
+<body style="background-color: green">
+    <div class="row" style="margin-top: 1%;margin-left: 33%;">
+        <div class="card" style="width: 35rem;">
+            <img src="https://www.pngix.com/pngfile/middle/27-278646_green-check-image-green-check-mark-png-transparent.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">You are <span style="color: green;font-weight: 500;">Healthy</span></h5>
+                <p class="card-text">
+                    Take Steps For Preventing COVID-19<a
+                        href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
+                        target="_blank"><span style="color: green;">Here</span> </a>
+                    <br><br><b>Useful Links <span style="color: green;font-weight: 500;">Health</span> Related</b>
+                <ul>
+                    <li><a target="_blank"
+                            href="https://health.mil/News/Articles/2020/05/22/COVID-19-lifestyle-tips-to-stay-healthy-during-the-pandemic">
+                        How to stay healthy during Pandemic</a></li>
+                    <li><a target="_blank" href="https://www.mohfw.gov.in/">Ministry of Health and Family Welfare</a>
+                    </li>
+                </ul>
+                </p>
+                <a href="/" class="btn btn-primary">Return Test</a>
+            </div>
+        </div>
+    </div>
+</body>
+{% else %}
+<body style="background-color: rgb(235, 47, 47); overflow: hidden;">
+    <div class="row" style="margin-top: 1%;margin-left: 33%;">
+        <div class="card" style="width: 35rem;">
+            <img src="https://phil.cdc.gov//PHIL_Images/23311/23311_lores.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">You are <span style="color: red;font-weight: 500;">COVID 19 Positive</span></h5>
+                <p class="card-text">
+                    Check Symptoms of COVID-19 <a
+                        href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#:~:text=symptoms"
+                        target="_blank"><span style="color: red;">Here</span> </a>
+                    <br>How To Take Care COVID-19 at Home <a target="_blank"
+                        href="https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/care-for-someone.html"><span
+                            style="color: red;">Here</span></a>
+                    <br><br><b>Useful Links <span style="color: red;font-weight: 500;">COVID</span> Related</b>
+                <ul>
+                    <li><a target="_blank"
+                            href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19">COVID-19
+                            Disease ( WHO )</a></li>
+                    <li><a target="_blank" href="https://www.mohfw.gov.in/">Ministry of Health and Family Welfare</a>
+                    </li>
+                    <li><a target="_blank"
+                            href="https://www.cdc.gov/library/researchguides/2019novelcoronavirus/websites.html">COVID-19
+                            Useful Websites</a></li>
+                </ul>
+                </p>
+                <a href="/" class="btn btn-primary">Return Test</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+{% endif %}
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
